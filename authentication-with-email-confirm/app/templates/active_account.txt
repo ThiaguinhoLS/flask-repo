@@ -1,0 +1,2 @@
+Hello, Mr(a). {{ username }} click on the link to activate your account, {{
+  url_for('users.active_account', token=token, _external=True) }}
